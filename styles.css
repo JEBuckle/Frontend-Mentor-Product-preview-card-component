@@ -1,0 +1,120 @@
+html {
+  background-color: hsl(30, 38%, 92%);
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin: 0;
+  padding-right: 50px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+}
+/*Containers and positioning
+*/
+
+.main-container {
+  height: 450px;
+  width: 600px;
+  background-color: white;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -225px;
+  margin-left: -300px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*IMG and Styling
+*/
+
+/* TXT Container
+*/
+
+.txt-container {
+  padding: 30px;
+}
+
+.txt-title {
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+}
+
+.txt-container h1,
+span {
+  font-family: Fraunces;
+  color: hsl(212, 21%, 14%);
+}
+
+.txt-content {
+  padding: 20px 15px 0 0;
+  font-family: Montserrat;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%, 0.85);
+  margin: 0;
+}
+
+.txt-prices {
+  height: auto;
+}
+
+.txt-price-container {
+  padding: 10px 0 10px 0;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.txt-price-reduced {
+  color: hsl(158, 36%, 37%);
+  font-size: 2em;
+  font-family: Fraunces;
+  padding-right: 20px;
+}
+
+.txt-price-original {
+  color: hsl(228, 12%, 48%);
+  font-family: Montserrat;
+  height: 35px;
+  margin-top: 13px;
+  text-decoration: line-through;
+}
+
+.img-desktop {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 15px 0 0 15px;
+}
+
+.txt-button {
+  width: 225px;
+  height: 45px;
+  border-radius: 10px;
+  background-color: hsl(158, 36%, 37%);
+  outline-style: auto;
+  color: white;
+  font-family: Montserrat;
+  font-weight: 700;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.txt-button:hover {
+  background-color: #1a4031;
+}
+
+.txt-icon {
+  padding-right: 10px;
+}
